@@ -1,0 +1,127 @@
+/*body */
+body {
+    background-color: rgb(212, 204, 195);
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+}
+
+
+
+
+/*h1*/
+h1, h2  {
+   font-size: 2.2em;
+   color: rgb(56, 12, 12);
+   
+}
+
+/*nav ul (see pg 145)*/
+ .inline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ .inline li {
+    display: inline;
+  }
+ 
+  li a:hover {
+    background-color: #e37b7b;
+  }
+  
+  
+  .active {
+    background-color: #bdbbf0;
+  }
+ 
+ 
+  
+
+ 
+
+
+  nav {
+    background-color: rgb(165, 149, 135);
+    border-style: solid;
+    border-color: rgb(109, 101, 77);
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 35px;
+    
+  }
+
+
+    
+    
+/*section*/
+
+section  {
+    font-family: 'Creepster', cursive;
+    font-family: 'Luckiest Guy', cursive;
+
+    color:  rgb(155, 91, 84);
+    
+}
+
+/*footer*/
+footer {
+  font-family: cursive;
+  clear: left;
+  color: rgb(155, 91, 84);
+  text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	border-top: 3px outset #cf7b79;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+  
+}
+
+
+
+/*left column*/
+
+section#leftColumn {
+  float: right;
+  width: 60%; 
+  padding-top: 5%;
+}
+
+
+
+/*right column*/
+
+section#rightColumn {
+  float: left;
+  width: 35%; 
+  padding-top: 5%;
+}
+
+
+
+.header img {
+  float: left;
+  width: 90px;
+  height: 90px;
+  background: #555;
+  border-radius: 50%;
+}
+
+.header h1 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.color {
+  color: rgb(155, 91, 84);
+}
+
